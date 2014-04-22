@@ -1,0 +1,21 @@
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+
+using namespace std;
+
+void main()
+{
+  char letra;
+  int i,numeroletras=29;
+  letra='*';
+  for (i=0;i<=numeroletras;i++)
+      cout <<letra;
+  cout <<"\n";
+  cout<<"* \t Me llamo Manuel     *";
+  cout <<"\n"; 
+  for (i=0;i<=numeroletras;i++)
+      cout <<letra;
+  cout <<"\n";
+  getch();
+}
